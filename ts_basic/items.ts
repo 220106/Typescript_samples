@@ -44,9 +44,19 @@ const calculateTotalPrice = (price:number, amount:number): number => {
 }
 
 function findItem(id:number) {
-    return items.find((item) => item.id == id);
+    var result = items.find((item) => item.id == id);
+    return result;
+    // if (result) {
+    //     return result;
+    // } else {
+    //     return { id: 0, name: "", price: 0 };
+    // }
 }
 
 var amount = 5;
 var totalPrice = calculateTotalPrice(item1.price, amount);
 console.log(totalPrice);
+
+var itemId = 5;
+var selectItem = findItem(itemId);
+console.log(selectItem);
