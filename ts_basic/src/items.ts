@@ -1,4 +1,4 @@
-import { Item } from './types'
+import { Item } from '../types'
 
 // 配列
 var itemNames: string[] = ["コーヒー", "紅茶", "ほうじ茶"];

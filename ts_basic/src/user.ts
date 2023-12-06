@@ -1,5 +1,5 @@
 //typesモジュールのUserモジュールを読み込み
-import { User } from './types';
+import { User } from '../types';
 
 // var user: {
 //     id: number;
